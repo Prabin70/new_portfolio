@@ -1,0 +1,233 @@
+{
+  "personal": {
+    "name": "Prabin Shretsha",
+    "title": "Full-Stack Developer & DevOps Engineer",
+    "bio": "Passionate full-stack developer with 2+ years of experience building scalable web applications and implementing robust DevOps practices. I love creating efficient, maintainable solutions that bridge the gap between development and operations.",
+    "location": "Kapan, Kathmandu, Nepal",
+    "email": "dev.prabinshrestha@gmail.com",
+    "phone": "+977-9749856214",
+    "website": "https://alexchen.dev",
+    "resumeUrl": "/resume.pdf",
+    "profileImage": "/images/profile.jpg"
+  },
+  "social": {
+    "github": "https://github.com/Prabin70",
+    "linkedin": "https://www.linkedin.com/in/prabin-shrestha-877528374/",
+    "twitter": "https://x.com/prabin220",
+    "facebook": "https://www.facebook.com/prabina.srestha.640573",
+    "instagram": "https://www.instagram.com/prabinshrestha90/"
+  },
+  "about": {
+    "headline": "Building the future, one commit at a time",
+    "description": "I'm a full-stack developer who believes in the power of clean code, automated processes, and continuous improvement. My journey started with curiosity about how things work behind the scenes, which led me to master both frontend and backend technologies while developing a passion for DevOps practices.",
+    "highlights": [
+      "2+ years of full-stack development experience",
+      "Expert in MERN stack and modern JavaScript frameworks",
+      "Open source contributor with 20+ repositories",
+      "Speaker at various tech conferences and meetups"
+    ],
+    "interests": [
+      "Microservices Architecture",
+      "Open Source Projects",
+      "Tech Community Building",
+      "Sustainable Coding Practices"
+    ]
+  },
+  "experience": [
+    {
+      "company": "N-nine Solution",
+      "position": "Internship/Trainesehip",
+      "duration": "2022 - 2023",
+      "description": "Built scalable web applications from scratch, implemented automated testing, and established DevOps practices.",
+      "technologies": ["React", "Node.js", "MongoDB", "GitHub Actions"]
+    },
+    {
+      "company": "N-nine Solution",
+      "position": "Junior Full-Stack Developer",
+      "duration": "2023 - Present",
+      "description": "Leading development of microservices architecture, and mentoring interns.",
+      "technologies": [
+        "Next.js",
+        "Grapes.js",
+        "PostgreSQL",
+        "Node.js",
+        "Express.js",
+        "Firebase",
+        "Netlify"
+      ]
+    }
+  ],
+  "techStack": {
+    "frontend": [
+      { "name": "React", "level": 95, "icon": "react" },
+      { "name": "Next.js", "level": 90, "icon": "nextjs" },
+      { "name": "TypeScript", "level": 60, "icon": "typescript" },
+      { "name": "Tailwind CSS", "level": 95, "icon": "tailwindcss" },
+      { "name": "Framer Motion", "level": 80, "icon": "framer" }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 95, "icon": "nodejs" },
+      { "name": "Express.js", "level": 90, "icon": "express" }
+    ],
+    "database": [
+      { "name": "MongoDB", "level": 90, "icon": "mongodb" },
+      { "name": "PostgreSQL", "level": 85, "icon": "postgresql" },
+      { "name": "Redis", "level": 80, "icon": "redis" }
+    ],
+    "devops": [
+      { "name": "Docker", "level": 90, "icon": "docker" },
+      { "name": "GitHub Actions", "level": 90, "icon": "github" },
+      { "name": "Vercel", "level": 95, "icon": "vercel" }
+    ],
+    "tools": [
+      { "name": "Git", "level": 95, "icon": "git" },
+      { "name": "VS Code", "level": 90, "icon": "vscode" },
+      { "name": "Figma", "level": 80, "icon": "figma" },
+      { "name": "Postman", "level": 85, "icon": "postman" },
+      { "name": "Jest", "level": 85, "icon": "jest" }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Chwassa Jhol Momo Website",
+      "description": "A vibrant and mouthwatering food ordering website for Chwassa Jhol Momo, focused on delivering the authentic Nepali momo experience online.",
+      "longDescription": "This website showcases the spicy and flavorful world of Chwassa Jhol Momo. Built with a strong focus on branding, visual appeal, and user experience, it allows users to explore menu items, place online orders, and find nearby outlets. The site includes a custom CMS for managing menu, offers, and orders, all wrapped in a responsive and mobile-first design.",
+      "image": "/jholmomo.png",
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "MongoDB",
+        "Framer Motion"
+      ],
+      "features": [
+        "Online ordering system with cart & checkout",
+        "Mobile-first responsive design",
+        "Menu management with CMS dashboard",
+        "Searchable product catalog with filtering",
+        "Integrated Google Maps for location discovery"
+      ],
+      "githubUrl": "https://github.com/allnine/nnine-food",
+      "liveUrl": "https://chwassajholmomo.com",
+      "category": "Full-Stack",
+      "featured": true,
+      "status": "Completed",
+      "year": 2024
+    },
+    {
+      "id": 2,
+      "title": "Aut A Physiotherapy Website",
+      "description": "A modern and informative physiotherapy website designed for Aut A Clinic to showcase services, allow bookings, and provide educational content to clients.",
+      "longDescription": "This responsive website for Aut A Physiotherapy Clinic features dynamic content sections for services, team, and client testimonials. Developed with a focus on user experience, accessibility, and performance. Integrated with booking functionality and an admin dashboard for easy content updates.",
+      "image": "/firstProject.png",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "MongoDB"
+      ],
+      "features": [
+        "Responsive design tailored for all devices",
+        "Service-wise appointment booking system",
+        "Admin dashboard for content and booking management",
+        "SEO optimized pages with structured data",
+        "Accessible and user-friendly UI/UX"
+      ],
+      "githubUrl": "https://github.com/nnine-tech/physotherapy",
+      "liveUrl": "https://physotherapy.vercel.app/",
+      "category": "Full-Stack",
+      "featured": true,
+      "status": "Completed",
+      "year": 2024
+    },
+    {
+      "id": 3,
+      "title": "Custom Website Builder Platform",
+      "description": "A flexible drag-and-drop website builder designed for non-tech users to create stunning websites with ease.",
+      "longDescription": "This project is a powerful yet user-friendly website builder developed to empower individuals and small businesses to create and launch fully responsive websites without any coding. Featuring modular components, theme customization, real-time preview, and template management, it allows for rapid website development. Built with performance and scalability in mind.",
+      "image": "/thirdProject.png",
+      "technologies": [
+        "Node.js",
+        "PostgreSQL",
+        "Next.js",
+        "React",
+        "Redux Toolkit",
+        "MongoDB"
+      ],
+      "features": [
+        "Drag-and-drop layout editor",
+        "Pre-built templates and section blocks",
+        "Live preview and real-time editing",
+        "Custom domain support",
+        "Theme customization with color and font controls"
+      ],
+      "githubUrl": "https://github.com/Aaryan10-sudo/web-builder/tree/main/webBuilder",
+      "liveUrl": "https://builder.chwassajholmomo.com",
+      "category": "SaaS",
+      "featured": true,
+      "status": "Ongoing",
+      "year": 2025
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Building Scalable Microservices with Mern",
+      "excerpt": "A comprehensive guide to designing and implementing microservices architecture using containerization and orchestration tools.",
+      "content": "In this post, we'll explore the journey from monolithic applications to microservices, covering Docker containerization, Kubernetes orchestration, and best practices for scalable architecture...",
+      "date": "2024-01-15",
+      "readTime": "8 min read",
+      "category": "DevOps",
+      "tags": ["Docker", "MERN Stack", "Node.js", "Express.js"],
+      "slug": "building-scalable-microservices",
+      "featured": true,
+      "image": "/blog.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "React Performance Optimization",
+      "excerpt": "Dive deep into React performance optimization strategies including memoization, code splitting, and bundle analysis.",
+      "content": "React applications can quickly become sluggish without proper optimization. Let's explore advanced techniques to keep your React apps performant and user-friendly...",
+      "date": "2024-01-05",
+      "readTime": "10 min read",
+      "category": "Frontend",
+      "tags": ["React", "Performance", "Optimization", "JavaScript"],
+      "slug": "react-performance-optimization",
+      "featured": false,
+      "image": "/blog2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Database Design for Scalable Applications",
+      "excerpt": "Best practices for designing databases that can handle growth, including indexing strategies and data modeling techniques.",
+      "content": "A well-designed database is the foundation of any scalable application. We'll cover data modeling, indexing strategies, and scaling techniques...",
+      "date": "2024-01-01",
+      "readTime": "7 min read",
+      "category": "Backend",
+      "tags": ["Database", "MongoDB", "Scaling", "Performance"],
+      "slug": "database-design-scalable-apps",
+      "featured": false,
+      "image": "/blog3.jpg"
+    }
+  ],
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "I'm always interested in new opportunities and exciting projects. Whether you have a question, want to collaborate, or just want to say hi, feel free to reach out!",
+    "email": "dev.prabinshrestha@gmail.com",
+    "phone": "+977-9749856214",
+    "location": "Kapan, Kathmandu, Nepal",
+    "availability": "Available for freelance and full-time opportunities",
+    "responseTime": "Usually responds within 24 hours"
+  },
+  "seo": {
+    "title": "Prabin Shrestha- Full-Stack Developer & DevOps Engineer",
+    "description": "Passionate full-stack developer with expertise in MERN stack, DevOps practices, and modern web technologies. Building scalable solutions and efficient development workflows.",
+    "keywords": "full-stack developer, DevOps engineer, React, Node.js, MongoDB, AWS, Docker, GitHub Actions, web development, San Francisco",
+    "author": "Alex Chen",
+    "canonical": "https://alexchen.dev",
+    "ogImage": "/images/og-image.jpg"
+  }
+}

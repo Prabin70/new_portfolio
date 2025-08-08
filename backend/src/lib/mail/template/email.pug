@@ -1,0 +1,69 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Email Confirmation
+    style.
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      @media screen and (max-width: 500px) {
+        .container {
+          width: 100% !important;
+          border-radius: 0 !important;
+        }
+      }
+
+  body(style="margin: 0; padding: 20px; background-color: #1a202c; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;")
+    table(border="0", cellpadding="0", cellspacing="0", width="100%")
+      tr
+        td
+          //- Main Modal Container
+          table.container(align="center", border="0", cellpadding="0", cellspacing="0", width="500", style="background-color: #00171f; border-radius: 12px; border-collapse: separate;")
+            tr
+              td(style="padding: 40px;")
+
+                //- Icon
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 25px;")
+                  tr
+                    td(align="center")
+                      //- NEW, VALID IMAGE LINK
+                      img(src="https://pikaso.cdnpk.net/private/production/2112460438/upload.png?preview=true&token=exp=1755286671~hmac=dbd2e9c635dce13c072bb328ef391def33d88a39b6ee24742e7b2b1aeb151687", alt="Email Icon", width="100", height="100")
+
+                //- Headline
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 15px;")
+                  tr
+                    td(align="center", style="text-align: center;")
+                      h2(style="margin: 0; color: #34d399; font-size: 24px; font-weight: 600;") Thank you #{name} for your message
+
+                //- Paragraph Text
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 25px;")
+                  tr
+                    td(align="center", style="text-align: center; color: #fff; font-size: 15px; line-height: 1.6;")
+                      | Thank you for your message #{name}! 
+                      
+                      | I truly appreciate you taking the time to reach out.
+                      
+                      | I'll get back to you as soon as possible.
+                     
+                      | In the meantime, feel free to explore more on my website or connect with me further.
+
+                //- Separator
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 20px;")
+                  tr
+                    td
+                      hr(style="border: 0; height: 1px; background-color: #eeeeee;")
+
+                //- Resend Link
+                table(border="0", cellpadding="0", cellspacing="0", width="100%")
+                  tr
+                    td(align="left", style="text-start: center; color: #fff; font-size: 14px;")
+                      | Thanks for contacting us, we'll be in touch shortly, 
+                      //- IMPORTANT: You may need to hook this link up to a resend function.
+                      a(href="mailto: dev.prabinshrestha@gmail.com", target="dev.prabinshrestha@gmail.com", style="color: #34d399; text-decoration: none; font-weight: 500;") dev.prabinshrestha@mail.com
+                      br
+                      a(href="https://github.com/Prabin70", target="_blank", style="color: #34d399; text-decoration: none; font-weight: 500;") Prain70(github)
+                      br
+                      a(href="https://www.facebook.com/prabina.srestha.640573", target="_blank", style="color: #34d399; text-decoration: none; font-weight: 500;") प्रबिन श्रेष्ठ

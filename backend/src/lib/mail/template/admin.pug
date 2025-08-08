@@ -1,0 +1,89 @@
+//- ===================================================================
+//- INTERNAL NOTIFICATION EMAIL
+//- Purpose: To notify you (the site owner) of a new contact message.
+//-
+//- Required Variables:
+//-   - name: The name of the person who sent the message.
+//-   - email: The email of the person who sent the message.
+//-   - message: The content of the message they sent.
+//- ===================================================================
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title New Message from #{name}
+    style.
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      @media screen and (max-width: 500px) {
+        .container {
+          width: 100% !important;
+          border-radius: 0 !important;
+        }
+      }
+
+  body(style="margin: 0; padding: 20px; background-color: #1a202c; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;")
+    table(border="0", cellpadding="0", cellspacing="0", width="100%")
+      tr
+        td
+          //- Main Modal Container
+          table.container(align="center", border="0", cellpadding="0", cellspacing="0", width="500", style="background-color: #00171f; border-radius: 12px; border-collapse: separate;")
+            tr
+              td(style="padding: 40px;")
+
+                //- Icon
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 25px;")
+                  tr
+                    td(align="center")
+                      img(src="https://pikaso.cdnpk.net/private/production/2112460438/upload.png?preview=true&token=exp=1755286671~hmac=dbd2e9c635dce13c072bb328ef391def33d88a39b6ee24742e7b2b1aeb151687", alt="Email Icon", width="100", height="100")
+
+                //- Headline
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 25px;")
+                  tr
+                    td(align="center", style="text-align: center;")
+                      h2(style="margin: 0; color: #34d399; font-size: 24px; font-weight: 600;") You Have a New Message!
+                
+                //- Sub-headline
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 25px;")
+                  tr
+                    td(align="center", style="text-align: center; color: #fff; font-size: 16px; line-height: 1.6;")
+                      | A new message was submitted via your portfolio contact form.
+
+                //- Separator
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 20px;")
+                  tr
+                    td
+                      hr(style="border: 0; height: 1px; background-color: #4a5568;")
+
+                //- User Details
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-bottom: 25px; color: #e2e8f0; font-size: 15px;")
+                  //- From Row
+                  tr
+                    td(width="80" style="padding-bottom: 10px; font-weight: 600; color: #a0aec0;") From:
+                    td(style="padding-bottom: 10px;") #{username}
+                  
+                  //- Email Row
+                  tr
+                    td(style="padding-bottom: 10px; font-weight: 600; color: #a0aec0;") Email:
+                    td(style="padding-bottom: 10px;")
+                      a(href=`mailto:${email}`, target="_blank", style="color: #34d399; text-decoration: none;") #{email}
+
+                //- Message Content
+                table(border="0", cellpadding="0", cellspacing="0", width="100%")
+                  tr
+                    td(style="font-weight: 600; color: #a0aec0; padding-bottom: 15px;") Message:
+                  tr
+                    td
+                      div(style="background-color: #0d2a33; padding: 15px; border-radius: 8px; color: #e2e8f0; line-height: 1.6; font-size: 15px;")
+                        //- The message from the user will be injected here
+                        | #{message}
+
+                //- Footer
+                table(border="0", cellpadding="0", cellspacing="0", width="100%", style="margin-top: 30px;")
+                  tr
+                    td(align="center", style="text-align: center; color: #718096; font-size: 12px;")
+                      | This is an automated notification from your website.
