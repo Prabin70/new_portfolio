@@ -148,7 +148,7 @@ export default function WithComparisonTableOnDark() {
                 {sections.map((section) => (
                   <li key={section.name}>
                     <ul role="list" className="space-y-4">
-                      {section.features.map((feature) =>
+                      {section.features.map((feature: any) =>
                         feature.tiers[tier.name] ? (
                           <li key={feature.name} className="flex gap-x-3">
                             <CheckIcon
@@ -258,7 +258,7 @@ export default function WithComparisonTableOnDark() {
                         <div className="absolute inset-x-8 mt-4 h-px bg-white/10" />
                       </th>
                     </tr>
-                    {section.features.map((feature) => (
+                    {section.features.map((feature: any) => (
                       <tr key={feature.name}>
                         <th
                           scope="row"
