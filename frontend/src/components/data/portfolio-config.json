@@ -59,32 +59,31 @@
   ],
   "techStack": {
     "frontend": [
-      { "name": "React", "level": 95, "icon": "react" },
-      { "name": "Next.js", "level": 90, "icon": "nextjs" },
-      { "name": "TypeScript", "level": 60, "icon": "typescript" },
+      { "name": "React", "level": 65, "icon": "react" },
+      { "name": "Next.js", "level": 75, "icon": "nextjs" },
+      { "name": "TypeScript", "level": 50, "icon": "typescript" },
       { "name": "Tailwind CSS", "level": 95, "icon": "tailwindcss" },
-      { "name": "Framer Motion", "level": 80, "icon": "framer" }
+      { "name": "Framer Motion", "level": 70, "icon": "framer" }
     ],
     "backend": [
-      { "name": "Node.js", "level": 95, "icon": "nodejs" },
-      { "name": "Express.js", "level": 90, "icon": "express" }
+      { "name": "Node.js", "level": 75, "icon": "nodejs" },
+      { "name": "Express.js", "level": 80, "icon": "express" }
     ],
     "database": [
-      { "name": "MongoDB", "level": 90, "icon": "mongodb" },
-      { "name": "PostgreSQL", "level": 85, "icon": "postgresql" },
-      { "name": "Redis", "level": 80, "icon": "redis" }
+      { "name": "MongoDB", "level": 80, "icon": "mongodb" },
+      { "name": "PostgreSQL", "level": 75, "icon": "postgresql" },
+      { "name": "Redis", "level": 70, "icon": "redis" }
     ],
     "devops": [
-      { "name": "Docker", "level": 90, "icon": "docker" },
-      { "name": "GitHub Actions", "level": 90, "icon": "github" },
-      { "name": "Vercel", "level": 95, "icon": "vercel" }
+      { "name": "Docker", "level": 50, "icon": "docker" },
+      { "name": "GitHub Actions", "level": 80, "icon": "github" },
+      { "name": "Vercel", "level": 80, "icon": "vercel" }
     ],
     "tools": [
       { "name": "Git", "level": 95, "icon": "git" },
       { "name": "VS Code", "level": 90, "icon": "vscode" },
-      { "name": "Figma", "level": 80, "icon": "figma" },
-      { "name": "Postman", "level": 85, "icon": "postman" },
-      { "name": "Jest", "level": 85, "icon": "jest" }
+      { "name": "Figma", "level": 60, "icon": "figma" },
+      { "name": "Postman", "level": 85, "icon": "postman" }
     ]
   },
   "projects": [

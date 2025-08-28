@@ -6,21 +6,21 @@ const tiers = [
   {
     name: "Starter",
     description: "Everything you need to get started.",
-    priceMonthly: "$19",
+    priceMonthly: "$49",
     href: "#",
     highlights: [
       { description: "Custom domains" },
       { description: "Edge content delivery" },
       { description: "Advanced analytics" },
-      { description: "Quarterly workshops", disabled: true },
+      { description: "Quarterly workshops" },
       { description: "Single sign-on (SSO)", disabled: true },
       { description: "Priority phone support", disabled: true },
     ],
   },
   {
     name: "Growth",
-    description: "All the extras for your growing team.",
-    priceMonthly: "$49",
+    description: "Unlock more features for your growing business.",
+    priceMonthly: "$79",
     href: "#",
     highlights: [
       { description: "Custom domains" },
@@ -46,6 +46,7 @@ const tiers = [
     ],
   },
 ];
+type TierName = "Starter" | "Growth" | "Scale";
 const sections = [
   {
     name: "Features",
@@ -111,8 +112,6 @@ const sections = [
     ],
   },
 ];
-
-type TierKey = keyof typeof feature.tiers;
 
 export default function ThreeTiersWithLogosAndFeatureComparison() {
   return (
@@ -281,16 +280,17 @@ export default function ThreeTiersWithLogosAndFeatureComparison() {
                   </th>
                   {tiers.map((tier) => (
                     <td key={tier.name} className="p-4 max-sm:text-center">
-                      {typeof feature.tiers[tier.name] === "string" ? (
+                      {typeof feature.tiers[tier.name as TierName] ===
+                      "string" ? (
                         <>
                           <span className="sr-only">{tier.name} includes:</span>
                           <span className="text-sm/6 text-gray-950">
-                            {feature.tiers[tier.name]}
+                            {feature.tiers[tier.name as TierName]}
                           </span>
                         </>
                       ) : (
                         <>
-                          {feature.tiers[tier.name] === true ? (
+                          {feature.tiers[tier.name as TierName] === true ? (
                             <CheckIcon
                               aria-hidden="true"
                               className="inline-block size-4 fill-green-600"
@@ -301,12 +301,6 @@ export default function ThreeTiersWithLogosAndFeatureComparison() {
                               className="inline-block size-4 fill-gray-400"
                             />
                           )}
-
-                          <span className="sr-only">
-                            {feature.tiers[tier.name] === true
-                              ? `Included in ${tier.name}`
-                              : `Not included in ${tier.name}`}
-                          </span>
                         </>
                       )}
                     </td>
@@ -351,13 +345,15 @@ export default function ThreeTiersWithLogosAndFeatureComparison() {
                             {feature.name}
                           </dt>
                           <dd className="text-center">
-                            {typeof feature.tiers[tier.name] === "string" ? (
+                            {typeof feature.tiers[tier.name as TierName] ===
+                            "string" ? (
                               <span className="text-sm/6 text-gray-950">
-                                {feature.tiers[tier.name]}
+                                {feature.tiers[tier.name as TierName]}
                               </span>
                             ) : (
                               <>
-                                {feature.tiers[tier.name] === true ? (
+                                {feature.tiers[tier.name as TierName] ===
+                                true ? (
                                   <CheckIcon
                                     aria-hidden="true"
                                     className="inline-block size-4 fill-green-600"
@@ -368,12 +364,6 @@ export default function ThreeTiersWithLogosAndFeatureComparison() {
                                     className="inline-block size-4 fill-gray-400"
                                   />
                                 )}
-
-                                <span className="sr-only">
-                                  {feature.tiers[tier.name] === true
-                                    ? "Yes"
-                                    : "No"}
-                                </span>
                               </>
                             )}
                           </dd>
